@@ -4,7 +4,7 @@ import { AiOutlineDelete } from 'react-icons/ai';
 
 const Todo = ({ todo, toggleTodo, deleteTodo }) => {
     return (
-        <div className="todo__container ">
+        <div className="todo__container " data-testid="todo">
             <div className="todo__checkbox" onClick={() => toggleTodo(todo.id)}>
                 {todo.completed ? <MdRadioButtonChecked className='icon checked' /> : <MdRadioButtonUnchecked className='icon' />}
             </div>

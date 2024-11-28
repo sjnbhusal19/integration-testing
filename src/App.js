@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Todos from './components/Todos';
 import AddTodo from './components/AddTodo';
+import './App.css'
 
 
 const App = () => {
